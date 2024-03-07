@@ -8,6 +8,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-image: linear-gradient(to right, #9ff5e7, lightgrey, #95e6ad );
 }
 .cname{
 	text-align: center;
@@ -17,7 +18,8 @@
 .container{
 	width: 400px;
 	height: 700px;
-	background-color: bisque;
+/*	background-color: bisque;*/
+	background-color: blure;
 	border-radius: 24px;
 	box-shadow: 0px 0px 25px indianred;
 }
@@ -31,17 +33,19 @@
 	text-align: right;
 	width: 85%;
 	margin-top: -20px;
+	font-size: 20px;
 }
 .nbtn{
 	height: 55px;
 	width: 70px;
 	margin: 5px;
-	color: linen;
-	background-color: grey;
+	color: darkcyan;
+	background-color: white;
 	border-radius: 8px;
 /*	outline: none;*/
 	border: none;
 	font-size: 30px;
+	font-weight: bolder;
 }
 .opr{
 	margin-left: 20px;
@@ -52,6 +56,7 @@
 /*	outline: none;*/
 	border: none;
 	font-size: 35px;
+	background-color: #c8f25e;
 }
 .sopr{
 	height: 40px;
@@ -60,10 +65,14 @@
 	border-radius: 5px;
 /*	outline: none;*/
 	border: none;
-	background-color: lightcoral;
-	color: green;
+	background-color: #f7b0cf;
+/*	background-color: #c8f25e;*/
+	color: #fa5716;
 	font-weight: bold;
 /*	font-size: 35px;*/
+}
+.ans{
+	font-size: 25px;
 }
 /*input{
 	height: 55px;
@@ -73,3 +82,7 @@
 	color: rebeccapurple;
 	background-color: limegreen;
 }*/
+#mq{
+	font-size: 30px;
+	margin-top: -250px;
+}
