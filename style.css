@@ -33,7 +33,7 @@
 	margin-top: -20px;
 }
 .nbtn{
-	height: 60px;
+	height: 55px;
 	width: 70px;
 	margin: 5px;
 	color: linen;
@@ -45,7 +45,7 @@
 }
 .opr{
 	margin-left: 20px;
-	height: 60px;
+	height: 55px;
 	width: 70px;
 	margin: 5px;
 	border-radius: 10px;
@@ -60,6 +60,9 @@
 	border-radius: 5px;
 /*	outline: none;*/
 	border: none;
+	background-color: lightcoral;
+	color: green;
+	font-weight: bold;
 /*	font-size: 35px;*/
 }
 /*input{
