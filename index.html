@@ -11,24 +11,24 @@
 	<div class="mdiv">
 		<!-- <marquee id="mq">Funtions are not operational.</marquee> -->
 		<div class="container">
-			<marquee id="mq">Funtions are not operational.</marquee>
+			<!-- <marquee id="mq">Funtions are not operational.</marquee> -->
 			<form >
 				<div>
 					<h3 class="cname">WebTech M6</h3>
 					<input type="text" name="op" class="op" disabled>
 				</div>
 				<div>
-					<input type="button" value="CALC" onclick="op.value=eval(op.value)" class="sopr" />
-					<input type="button" value="" onclick="op.value+=''" class="sopr" />
-					<input type="button" value="x-1" onclick="op.value+='x-1'" class="sopr" />
+					<input type="button" value="sin" onclick="op.value=eval(op.value)" class="sopr" />
+					<input type="button" value="cos" onclick="op.value+=''" class="sopr" />
+					<input type="button" value="tan" onclick="op.value+='x-1'" class="sopr" />
 					<input type="button" value="log.[]" onclick="op.value+='log10'" class="sopr" />
 					<input type="button" value="S<->D" onclick="op.value+='s<->'" class="sopr" />
 					<input type="button" value="M+" onclick="op.value+='M+'" class="sopr" />
 				</div>
 				<div>
-					<input type="button" value="/" onclick="op.value+='/'" class="sopr" />
-					<input type="button" value="root" onclick="op.value+='root'" class="sopr" />
-					<input type="button" value="x2" onclick="op.value+='power'" class="sopr" />
+					<input type="button" value="sin" onclick="op.value+='/'" class="sopr" />
+					<input type="button" value="cos" onclick="op.value+='root'" class="sopr" />
+					<input type="button" value="tan" onclick="op.value+='power'" class="sopr" />
 					<input type="button" value="x." onclick="op.value+='xfactor'" class="sopr" />
 					<input type="button" value="log" onclick="op.value+='log'" class="sopr" />
 					<input type="button" value="In" onclick="op.value+='In'" class="sopr" />
@@ -53,7 +53,7 @@
 				
 				<div>
 					<input type="button" value="AC" onclick="op.value=''" class="clr nbtn" />
-					<input type="button" value="C" onclick="op.value=''" class="clr nbtn" />
+					<input type="button" value="C" name="back" onclick="op.value=op.substring(0, op.length - 1)" class="clr nbtn" />
 					<input type="button" value="/" onclick="op.value+='/'" class="opr" />
 					<input type="button" value="%" onclick="op.value+='%'" class="opr" />
 				</div>

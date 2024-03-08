@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Unicode use at html</title>
+</head>
+<body>
+	<script type="text/javascript">
+		for (let i = 0; i<160; i++ )
+		{
+			document.writeln(i+" : "+String.fromCharCode(i)+"   ");
+			// document.writeln("<h1>"+i+" : "+String.fromCharCode(i)+"<h1>");
+			if (i%10==0) {
+				document.write("<br>");
+			}
+		}
+	</script>
+
+</body>
+</html>
